@@ -17,7 +17,7 @@ else:
 
 # Accurate code
 units = float(input())
-if units>100:
+if units<100:
     print("No current bill")
 else:
     if units<=200:
